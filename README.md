@@ -6,6 +6,22 @@ Wallpaper App built using [Flutter](https://flutter.dev) & [Unsplash API](https:
 
 
 
+Requirements
+Flutter 3.5 or higher
+Dart 2.17 or higher
+
+To Run 
+Clone the repo
+
+`flutter doctor`
+to check if you have desired softwares and sdks install
+
+`flutter pub get`
+to download all the packages
+
+`flutter run`
+to run the code make sure you have a physical device connected or a emulator running for either Android or iOS
+
 
 
 
