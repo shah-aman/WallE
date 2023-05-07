@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 
 import 'package:url_launcher/url_launcher.dart';
-import 'package:intent/intent.dart' as intent;
-import 'package:intent/action.dart' as action;
+
 import 'package:walle/utils/contants.dart';
+import 'package:wallpaper_manager/wallpaper_manager.dart';
 
 class DetailsScreen extends StatefulWidget {
   @override
@@ -129,17 +131,6 @@ class _DetailsScreenState extends State<DetailsScreen> {
             ],
           ),
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () async {
-          intent.Intent()
-            ..setAction(action.Action.ACTION_SET_WALLPAPER)
-            ..startActivityForResult().then(
-              (_) => print(_),
-              onError: (e) => print(e),
-            );
-        },
-        child: Icon(Icons.wallpaper),
       ),
     );
   }
