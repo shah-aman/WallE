@@ -40,17 +40,6 @@ Wallpaper App built using [Flutter](https://flutter.dev) & [Unsplash API](https:
   </tr>
 </table>
 
-## Dependencies
-- [http](https://pub.dev/packages/http)
-
-- [shared_preferences](https://pub.dev/packages/shared_preferences)
-
-- [url_launcher](https://pub.dev/packages/url_launcher)
-
-- [sqflite](https://pub.dev/packages/sqflite)
-
-- [intent](https://pub.dev/packages/intent)
-
 ## Setup
 - Register a new application [here](https://unsplash.com/developers)
 
